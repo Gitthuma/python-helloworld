@@ -17,3 +17,7 @@ jobs:
 
     #specify the os on which the job will run
     runs-on: ubuntu-latest
+
+    #Create a steps sections for the sequence of steps to complete the job
+    steps:
+      - 

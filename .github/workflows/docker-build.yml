@@ -1,5 +1,11 @@
 #Basic workflow for github action
 
-#Define name
+#Define name of github action
 name: Docker Build and Push
 
+#Control when the action will be run. Triger the workflow on push or pull request event on master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]

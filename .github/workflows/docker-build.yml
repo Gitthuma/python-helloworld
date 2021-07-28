@@ -20,8 +20,13 @@ jobs:
 
     #Create a steps sections for the sequence of steps to complete the job
     steps:
-      #Cheout existing code and reference it with the latest commits
+      
       - 
+      #Cheout existing code and reference it with the latest commits
         name: Checkout
         uses: actions/checkout@v2
+      - 
+      #set up QEMU which will create excecution environments for our containers
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
       

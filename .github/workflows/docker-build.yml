@@ -3,12 +3,12 @@
 #Define name of github action
 name: Docker Build and Push
 
-#Control when the action will be run. Triger the workflow on push or pull request event on master branch
+#Control when the action will be run. Triger the workflow on push or pull request event on main branch
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 # Create  a job section with one job build
 jobs:

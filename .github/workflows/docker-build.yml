@@ -1,0 +1,5 @@
+#Basic workflow for github action
+
+#Define name
+name: Docker Build and Push
+

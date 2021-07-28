@@ -9,3 +9,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+
+# Create  a job section with one job build
+jobs:
+  
+  build:

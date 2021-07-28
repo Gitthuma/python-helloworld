@@ -14,3 +14,6 @@ on:
 jobs:
   
   build:
+
+    #specify the os on which the job will run
+    runs-on: ubuntu-latest

@@ -20,4 +20,8 @@ jobs:
 
     #Create a steps sections for the sequence of steps to complete the job
     steps:
+      #Cheout existing code and reference it with the latest commits
       - 
+        name: Checkout
+        uses: actions/checkout@v2
+      
